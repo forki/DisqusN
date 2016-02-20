@@ -8,7 +8,8 @@ namespace DisqusN.Resources.Forums
     public class Thread
     {
         public string Feed { get; set; }
-        public string Forum { get; set; }
+        [JsonConverter(typeof(ForumConverter))]
+        public Either<string, Forum> Forum { get; set; }
         public List<string> Identifiers { get; set; }
         public int Dislikes { get; set; }
         public int Likes { get; set; }

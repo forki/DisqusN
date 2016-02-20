@@ -33,7 +33,7 @@ namespace DisqusN.Console
             {
                 Limit = 10,
                 Order = ItemOrdering.Descending,
-                Related = new []{ ForumRelated.Author }
+                Related = new []{ ForumRelated.Author, ForumRelated.Forum }
             };
 
             var query = parameters.GetResourceUriQuery();

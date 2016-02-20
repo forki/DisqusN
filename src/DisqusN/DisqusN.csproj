@@ -80,6 +80,10 @@
     <Compile Include="DisqusParameterAttribute.cs" />
     <Compile Include="DisqusRequester.cs" />
     <Compile Include="DisqusResponseList.cs" />
+    <Compile Include="Favicon.cs" />
+    <Compile Include="Forum.cs" />
+    <Compile Include="ForumSettings.cs" />
+    <Compile Include="Resources\Forums\ForumConverter.cs" />
     <Compile Include="Resources\Forums\ForumRelated.cs" />
     <Compile Include="IDisqusRequester.cs" />
     <Compile Include="IDisqusResponseMessage.cs" />
