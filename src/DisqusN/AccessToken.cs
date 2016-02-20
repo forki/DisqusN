@@ -1,4 +1,4 @@
-﻿namespace DisqusN.Core
+﻿namespace DisqusN
 {
     public class AccessToken
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace DisqusN.Core.Resources.Forums
+namespace DisqusN.Resources.Forums
 {
     public enum ForumRelated
     {

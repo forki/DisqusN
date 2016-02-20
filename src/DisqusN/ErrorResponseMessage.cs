@@ -1,7 +1,7 @@
 using System;
 using LanguageExt;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public class ErrorResponseMessage
     {

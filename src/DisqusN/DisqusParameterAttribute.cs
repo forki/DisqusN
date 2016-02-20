@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class DisqusParameterAttribute : Attribute

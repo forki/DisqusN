@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using LanguageExt;
 using Newtonsoft.Json;
 
-namespace DisqusN.Core.Resources.Forums
+namespace DisqusN.Resources.Forums
 {
     public class Thread
     {

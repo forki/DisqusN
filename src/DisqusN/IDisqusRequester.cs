@@ -1,6 +1,6 @@
 ﻿using LanguageExt;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public interface IDisqusRequester
     {

@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 using static LanguageExt.Prelude;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public class DisqusClient
     {

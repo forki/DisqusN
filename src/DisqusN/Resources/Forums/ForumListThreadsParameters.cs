@@ -1,6 +1,6 @@
 ﻿using LanguageExt;
 
-namespace DisqusN.Core.Resources.Forums
+namespace DisqusN.Resources.Forums
 {
     public sealed class ForumListThreadsParameters : ForumsParameters
     {

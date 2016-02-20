@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public enum ItemOrdering
     {

@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
-using DisqusN.Core;
-using DisqusN.Core.Resources.Forums;
+using DisqusN;
+using DisqusN.Resources.Forums;
 
 namespace DisqusN.Console
 {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public class DisqusResponseList<T> where T : new()
     {

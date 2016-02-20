@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using LanguageExt;
 using static LanguageExt.Prelude;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public interface IDisqusResponseMessage
     {

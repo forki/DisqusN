@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using LanguageExt;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public abstract class DisqusRequestParameters
     {

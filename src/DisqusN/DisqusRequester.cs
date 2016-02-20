@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using LanguageExt;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public class DisqusRequester : IDisqusRequester
     {

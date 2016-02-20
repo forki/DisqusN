@@ -1,7 +1,7 @@
 ﻿using LanguageExt;
 using Newtonsoft.Json;
 
-namespace DisqusN.Core
+namespace DisqusN
 {
     public class Cursor
     {

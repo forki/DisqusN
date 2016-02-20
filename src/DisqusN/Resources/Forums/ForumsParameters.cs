@@ -1,4 +1,4 @@
-﻿namespace DisqusN.Core.Resources.Forums
+﻿namespace DisqusN.Resources.Forums
 {
     public abstract class ForumsParameters : DisqusRequestParameters
     {

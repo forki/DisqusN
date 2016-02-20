@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DisqusN.Core.Resources.Threads
+namespace DisqusN.Resources.Threads
 {
     public static class ThreadRequests
     {
