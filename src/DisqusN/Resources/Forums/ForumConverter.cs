@@ -32,7 +32,7 @@ namespace DisqusN.Resources.Forums
             }
             else
             {
-                throw new InvalidDataException("Unknown data format within AuthorConverter");
+                throw new InvalidDataException("Unknown data format within ForumConverter");
             }
 
             return either;
