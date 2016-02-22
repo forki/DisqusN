@@ -82,9 +82,20 @@ namespace DisqusN
             return builder;
         }
 
-        private string getValueForAppending(Type valueType, object originalValue)
+        private string toInvariantString(object obj)
         {
-            // TODO do we need to worry about culture, etc? Probably
+            var convertible = obj as IConvertible;
+
+            if (convertible != null)
+                return convertible.ToString(CultureInfo.InvariantCulture);
+
+            var formattable = obj as IFormattable;
+
+            if (formattable != null)
+                return formattable.ToString(null, CultureInfo.InvariantCulture);
+
+            return obj.ToString();
+        }
 
         private string getValueForAppending(Type valueType, object originalValue)
         {
@@ -105,7 +116,7 @@ namespace DisqusN
             }
             else
             {
-                return originalValue.ToString();
+                return toInvariantString(originalValue);
             }
         }
 
