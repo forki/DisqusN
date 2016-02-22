@@ -86,7 +86,14 @@ namespace DisqusN
         {
             // TODO do we need to worry about culture, etc? Probably
 
-            if (originalValue.GetType().IsEnum)
+        private string getValueForAppending(Type valueType, object originalValue)
+        {
+            if (originalValue is DateTime)
+            {
+                var date = (DateTime) originalValue;
+                return date.ToString("O");
+            }
+            else if (originalValue.GetType().IsEnum)
             {
                 // Use description on enum
                 var name = Enum.GetName(valueType, originalValue);

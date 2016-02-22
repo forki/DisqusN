@@ -1,4 +1,5 @@
-﻿using LanguageExt;
+﻿using System;
+using LanguageExt;
 
 namespace DisqusN.Resources.Forums
 {
@@ -27,7 +28,7 @@ namespace DisqusN.Resources.Forums
         [DisqusParameter("related")]
         public Option<ForumRelated[]> Related { get; set; }
 
-        // TODO 
-        // since
+        [DisqusParameter("since")]
+        public Option<DateTime> Since { get; set; }
     }
 }

@@ -1,6 +1,9 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
+using System.Security.AccessControl;
 using DisqusN;
 using DisqusN.Resources.Forums;
+using static LanguageExt.Prelude;
 
 namespace DisqusN.Console
 {
@@ -33,7 +36,8 @@ namespace DisqusN.Console
             {
                 Limit = 10,
                 Order = ItemOrdering.Descending,
-                Related = new []{ ForumRelated.Author, ForumRelated.Forum }
+                Related = new []{ ForumRelated.Author, ForumRelated.Forum },
+                Since = new DateTime(2013,1,1,0,0,0)
             };
 
             var query = parameters.GetResourceUriQuery();
