@@ -66,7 +66,7 @@ A Disqus API client for .NET (with functional tendencies)
 |---|:-:|
 | addModerator | Not Started |
 | create | Not Started |
-| details | Not Started |
+| details | **Started** |
 | fixFavIconsForClassifiedIcons | Not Started |
 | follow | Not Started |
 | generateInterestingContent | Not Started |

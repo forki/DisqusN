@@ -79,11 +79,13 @@
     <Compile Include="DisqusClient.cs" />
     <Compile Include="DisqusParameterAttribute.cs" />
     <Compile Include="DisqusRequester.cs" />
+    <Compile Include="DisqusResponse.cs" />
     <Compile Include="DisqusResponseList.cs" />
     <Compile Include="Favicon.cs" />
     <Compile Include="Forum.cs" />
     <Compile Include="ForumSettings.cs" />
     <Compile Include="Resources\Forums\ForumConverter.cs" />
+    <Compile Include="Resources\Forums\ForumDetailsParameters.cs" />
     <Compile Include="Resources\Forums\ForumRelated.cs" />
     <Compile Include="IDisqusRequester.cs" />
     <Compile Include="IDisqusResponseMessage.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="DisqusApiPublicKey.cs" />
     <Compile Include="Resources\Forums\AuthorConverter.cs" />
     <Compile Include="Resources\Forums\ForumListThreadsParameters.cs" />
+    <Compile Include="Resources\Forums\ForumsDetailsRequest.cs" />
     <Compile Include="Resources\Forums\ForumsListThreadsRequest.cs" />
     <Compile Include="Resources\Forums\ForumsParameters.cs" />
     <Compile Include="Resources\Forums\ForumsRequest.cs" />
