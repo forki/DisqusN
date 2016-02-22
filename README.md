@@ -77,7 +77,7 @@ A Disqus API client for .NET (with functional tendencies)
 | listMostActiveUsers | Not Started |
 | listMostLikedUsers | Not Started |
 | listPosts | Not Started |
-| listThreads | Not Started |
+| listThreads | **Completed** |
 | listUsers | Not Started |
 | removeDefaultAvatar | Not Started |
 | removeModerator | Not Started |
