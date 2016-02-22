@@ -1,6 +1,6 @@
 ﻿namespace DisqusN
 {
-    public class DisqusResponse<T>
+    public class DisqusResponse<T> where T : new()
     {
         public int Code { get; set; }
         public Cursor Cursor { set; get; }
