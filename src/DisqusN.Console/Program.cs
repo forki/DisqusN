@@ -54,6 +54,15 @@ namespace DisqusN.Console
                     lhs => System.Console.WriteLine(lhs.Message)),
                 Left: er => { });
 
+            
+
+            var param1 = new ForumDetailsParameters("disqus")
+            {
+                Attach = new [] { ForumAttach.ForumIntegration }
+            };
+            var forumDetailsRequest = ForumRequests.Details(param1);
+            var forumDetails = disqusClient.Request(forumDetailsRequest);
+
             System.Console.ReadKey();
         }
     }
