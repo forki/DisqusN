@@ -84,6 +84,8 @@
     <Compile Include="Favicon.cs" />
     <Compile Include="Forum.cs" />
     <Compile Include="ForumSettings.cs" />
+    <Compile Include="OptionConverter.cs" />
+    <Compile Include="Resources\Forums\ForumAttach.cs" />
     <Compile Include="Resources\Forums\ForumConverter.cs" />
     <Compile Include="Resources\Forums\ForumDetailsParameters.cs" />
     <Compile Include="Resources\Forums\ForumRelated.cs" />

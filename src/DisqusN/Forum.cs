@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using LanguageExt;
+using Newtonsoft.Json;
+using static LanguageExt.Prelude;
 
 namespace DisqusN
 {
@@ -25,5 +27,17 @@ namespace DisqusN
         public string Id { get; set; }
         public string Channel { get; set; }
         public string Name { get; set; }
+
+        [JsonProperty("numThreads")]
+        [JsonConverter(typeof (OptionConverter<long>))]
+        public Option<long> NumberOfThreads { get; set; } = None;
+
+        [JsonConverter(typeof (OptionConverter<long>))]
+        [JsonProperty("numFollowers")]
+        public Option<long> NumberOfFollowers { get; set; } = None;
+
+        [JsonConverter(typeof (OptionConverter<long>))]
+        [JsonProperty("numModerators")]
+        public Option<long> NumberOfModerators { get; set; } = None;
     }
 }
