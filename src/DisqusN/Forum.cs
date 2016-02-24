@@ -39,5 +39,28 @@ namespace DisqusN
         [JsonConverter(typeof (OptionConverter<long>))]
         [JsonProperty("numModerators")]
         public Option<long> NumberOfModerators { get; set; } = None;
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        [JsonProperty("commentsLinkOne")]
+        public Option<string> CommentsLinkOne { get; set; } = None;
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        [JsonProperty("commentsLinkZero")]
+        public Option<string> CommentsLinkZero { get; set; } = None;
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        public Option<string> ColorScheme { get; set; }
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        public Option<string> CommentsLinkMultiple { get; set; }
+
+        [JsonConverter(typeof(OptionConverter<long>))]
+        public Option<long> Sort { get; set; }
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        public Option<string> ModeratorBadgeText { get; set; }
+
+        [JsonConverter(typeof(OptionConverter<string>))]
+        public Option<string> Typeface { get; set; }
     }
 }

@@ -5,6 +5,8 @@ namespace DisqusN.Resources.Forums
     public enum ForumAttach
     {
         [Description("counters")]
-        Counters
+        Counters,
+        [Description("forumIntegration")]
+        ForumIntegration
     }
 }
